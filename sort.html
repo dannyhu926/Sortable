@@ -9,7 +9,7 @@
 <script>
     var things = document.getElementById('things');
     var sortable = Sortable.create(things, {
-        group: "npc-list",
+        group: "things",
         onUpdate: function (event) {
             var order = sortable.toArray();
             var ids = order.join(',');
